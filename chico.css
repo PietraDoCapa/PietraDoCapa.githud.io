@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  opacity: 90%;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px; 
+  padding: 0 30px; 
+  margin-top: 50px;
+}
+
+.menu {
+  padding: 15px;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  opacity: 100%;
+  -webkit-text-stroke-width: solid;
+  color: aliceblue;
+}
+
+.Discografia_do_chiquinho {
+  margin-top: 30px;
+}
+
+.Discos {
+  margin-bottom: 30px; 
+}
+
+.Disco {
+  background-color: burlywood ;
+  border: 2px solid white;
+  border-radius: 8px;
+  box-shadow: 0 4px black;
+  padding: 30px;
+}
+
+.Capa_do_disco {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.Nome_do_disco {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.Descrição {
+  margin-top: 10px;
+  color: black;
+}

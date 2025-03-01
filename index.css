@@ -1,0 +1,85 @@
+* {
+    margin: 0% ;
+    padding: 0%;
+    left: 15%;
+    right: 15%;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+html,body {
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgb(212, 212, 199);
+}
+
+.central {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0,7%;
+    background-color: rgb(30, 85, 48);
+    justify-content: space-around;
+    border: solid 1px ;
+    color: black;
+    gap: 20px;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    position: center center;
+    margin-right: 89px;
+}
+
+.Chiquinho {
+    width: 25%;
+    height: auto;
+}
+
+.sobre {
+
+    max-width: 60%;
+    flex-direction: column;
+    flex: 1;
+    font-size: 16px;
+}
+
+.nome {
+    color: rgb(30, 85, 48);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    position: flex;
+}
+
+
+
+
+.Links {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(30, 85, 48);
+    padding: 2px 0;
+    
+}
+
+.Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+

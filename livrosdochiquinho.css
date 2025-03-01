@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+    height: 450px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+body {
+    margin: 0% 30px;
+    background-color: bisque;
+}
+
+h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: solid 3px;
+    color: black;
+}
+
